@@ -1,0 +1,64 @@
+/* Common Shared styles */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.orange{
+    color: #FD6E0A;
+}
+.btn_primary{
+    padding: 15px 35px;
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    border: 0;
+    color: white;
+}
+/* Specific Styles */
+
+/* Header related styles */
+header{
+    background-color: #FFF8F3;
+}
+.header_title{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 0 200px;
+}
+.nav_title{
+    font-size: 45px;
+    font-weight: 800;
+}
+nav li{
+    list-style: none;
+    display: inline;
+    margin-right: 50px;
+}
+nav li a{
+    text-decoration: none;
+}
+/* Banner related styles */
+.banner{
+    padding: 30px 30px 30px 200px;
+    display: flex;
+    align-items: center;
+}
+.title1{
+    font-size: 30px;
+    color: #474747;
+    font-weight: 600;
+}
+.title2{
+    font-size: 50px;
+    font-weight: 700;
+}
+.btn_contact{
+    padding: 15px 35px;
+    border-radius: 5px;
+    color: #FD6E0A; 
+    border: 1px solid #FD6E0A;
+    font-weight: 700;
+    background-color: whitesmoke;
+}
+.profile_pic{
+    width: 500px;
+}
